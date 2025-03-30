@@ -4,7 +4,7 @@ Turn css files into inline-css
 
 ## installation
 
-[![Clojars Project](https://img.shields.io/clojars/v/org.clojars.ralii/css-inline.svg)]
+![Clojars Project](https://img.shields.io/clojars/v/org.clojars.ralii/css-inline.svg)
 
 ## Requirements
 - Clojure
