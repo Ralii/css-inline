@@ -2,9 +2,6 @@
 
 Turn css files into inline-css
 
-## Installation
-
-Download from http://example.com/FIXME.
 
 ## Requirements
 - Clojure
