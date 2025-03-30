@@ -2,7 +2,6 @@
 
 Turn css files into inline-css
 
-
 ## Requirements
 - Clojure
 - Hiccup or any other vector based html-rendering library
@@ -13,7 +12,7 @@ There is some magic happening that you should be aware of. To use ns-css in cert
 Calling `ns-css` will parse the css-file and expose class-names from the css-file. `css` contains `[:style css-string....]` so it can be used in the root component of the file.
 `style-styled-table` is a classname found from the file and exposed to developer. With at least cider I am able to get autocomplete for these.
 
-Example ns:
+Example ns (table.clj):
 
 ``` clojure
 
@@ -46,7 +45,7 @@ Example ns:
         [:td registration-date]])]]])
 ```
 
-Example css:
+Example css (table.css):
 
 ``` css
  .styled-table {
@@ -56,3 +55,5 @@ Example css:
 }
 
 ```
+
+Both files are in the same folder.
