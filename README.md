@@ -22,7 +22,7 @@ Example ns (table.clj):
 
 (ns table
   (:require
-   [inline-css :refer [ns-css]]))
+   [css-inline :refer [ns-css]]))
 
 (ns-css)
 
