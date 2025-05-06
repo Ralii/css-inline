@@ -14,6 +14,7 @@
   "Macro that will expose every class in css-file as style-`class-name` prefix.
    Whole css-file will be exposed as string with symbol `css`"
   (let [path-to-file (str "src/"(str/replace *ns* "." "/") ".css")
+        path-to-file (str/replace path-to-file "-" "_")
         file (slurp path-to-file)
         css-classes (extract-css-classes file)
         css-class-defs (map output-def css-classes)]

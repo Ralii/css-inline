@@ -1,4 +1,4 @@
-(defproject org.clojars.ralii/css-inline "0.0.1"
+(defproject org.clojars.ralii/css-inline "0.0.2"
   :description "Use inline css with css-files"
   :url "https://github.com/Ralii/css-inline"
   :license {:name "EPL-2.0 OR GPL-2.0-or-later WITH Classpath-exception-2.0"
